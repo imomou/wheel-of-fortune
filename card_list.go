@@ -84,6 +84,85 @@ func init() {
 		},
 
 		// slowland
+		// too complicated for now to simuilate, leave empty for now
+
+		// battle land
+		"Prairie Stream": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: true,
+			TapsFor:       []string{"W", "U"},
+		},
+		"Smoldering Marsh": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: true,
+			TapsFor:       []string{"R", "B"},
+		},
+		"Sunken Hollow": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: true,
+			TapsFor:       []string{"B", "U"},
+		},
+		"Cinder Glade": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: true,
+			TapsFor:       []string{"R", "G"},
+		},
+		"Canopy Vista": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: true,
+			TapsFor:       []string{"G", "W"},
+		},
+
 		// painland
+		"Hallowed Fountain": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"W", "U"},
+		},
+		"Watery Grave": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"U", "B"},
+		},
+		"Blood Crypt": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"B", "R"},
+		},
+		"Stomping Ground": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"R", "G"},
+		},
+		"Temple Garden": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"G", "W"},
+		},
+		"Godless Shrine": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"W", "B"},
+		},
+		"Steam Vents": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"U", "R"},
+		},
+		"Overgrown Tomb": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"B", "G"},
+		},
+		"Sacred Foundry": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"R", "W"},
+		},
+		"Breeding Pool": cardInfo{
+			IsBasic:       false,
+			ComesInTapped: false,
+			TapsFor:       []string{"G", "U"},
+		},
 	}
 }
